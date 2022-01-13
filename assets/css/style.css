@@ -4,6 +4,17 @@ body * {
   box-sizing: border-box;
 }
 
+.btn {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
 .nav-barbershop {
   background-color: black;
 }
@@ -30,6 +41,22 @@ body * {
   display: grid;
   align-items: center;
   margin-top: 520px;
+}
+
+.blog-section {
+  color: #707070;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.blog-section__title {
+  padding-left: 50px;
+}
+.blog-section__paragraph {
+  margin-top: 40px;
+  padding: 0 50px 0 50px;
+  letter-spacing: 0.56px;
+  line-height: 40px;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
