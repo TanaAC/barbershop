@@ -13,6 +13,13 @@ body * {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 70px;
+}
+
+.section-button {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-barbershop {
@@ -57,6 +64,19 @@ body * {
   letter-spacing: 0.56px;
   line-height: 40px;
   margin-bottom: 50px;
+}
+
+.presentation-section {
+  display: flex;
+  justify-content: center;
+}
+.presentation-section__img {
+  border: 1px solid gray;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

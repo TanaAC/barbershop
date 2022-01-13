@@ -7,4 +7,12 @@ border-radius: 20px;
 -moz-border-radius: 20px; 
 -ms-border-radius: 20px; 
 -o-border-radius: 20px;
+font-size: $fz-small;
+margin-bottom: 70px;
+
+}
+
+.section-button{
+    display: flex;
+    justify-content: space-evenly;
 }
