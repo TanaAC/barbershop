@@ -1,14 +1,14 @@
-.blog-footer{
-    background-color: $color-Eerielack-b;
-    height: 206px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.blog-footer {
+  background-color: $color-Eerielack-b;
+  height: 206px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media screen and (min-width: 992px) {
+  @media screen and (min-width: 992px) {
     .image-footer {
-    width: 140px;
-    height: 70px;
-    }   
+      width: 140px;
+      height: 70px;
     }
+  }
 }

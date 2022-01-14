@@ -6,7 +6,7 @@
   @media screen and (min-width: 992px) {
     flex-direction: row;
     justify-content: start;
-    margin-left: 180px;
+    margin-left: 60px;
   }
   &__img {
     border: 1px solid gray;
@@ -17,6 +17,4 @@
     -o-border-radius: 150px;
     width: 120px;
   }
-
-  
 }

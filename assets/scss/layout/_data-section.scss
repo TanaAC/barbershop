@@ -1,42 +1,39 @@
-.data-section{
-    
-    text-align: center;
-&__name{
-    font-family:$ff-playf; 
+.data-section {
+  text-align: center;
+  &__name {
+    font-family: $ff-playf;
     font-size: $fz-x-larg;
     font-weight: $fw-black;
     width: 164px;
-}   
+  }
 
-@media screen and (min-width: 992px) {
+  @media screen and (min-width: 992px) {
     flex-direction: row;
     justify-content: start;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
-  &__nickname{
+  &__nickname {
     font-family: $ff-roboto;
-    color: #D76C69B2;
+    color: #d76c69b2;
     width: 164px;
-} 
+  }
 
-  &__web{
+  &__web {
     font-family: $ff-roboto;
-    color: #D76C69B2;
+    color: #d76c69b2;
   }
 
-  &__paragraph{
-     width: 617px; 
-     height: 108px;
-     margin-left: 20px;
-     margin-top: 50px;
-     color:$color-nickel;
-     
-     @media screen and (max-width: 414px){
-     display: none;  
-     }
+  &__paragraph {
+    width: 500px;
+    height: 108px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: $color-nickel;
+
+    @media screen and (max-width: 415px) {
+      display: none;
+    }
   }
-
-
 }

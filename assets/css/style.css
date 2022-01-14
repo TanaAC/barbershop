@@ -41,7 +41,7 @@ body * {
 }
 
 .text-color-pink {
-  color: #DE8684;
+  color: #de8684;
 }
 
 .pagination-button {
@@ -52,6 +52,29 @@ body * {
   margin-top: 50px;
   background-color: #c4cccf17;
 }
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.page-link {
+  color: #121619;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #060606;
+  background-color: #040404;
+  border-color: #dee2e6;
+  color: white;
+}
+
 .blog-footer {
   background-color: #121619;
   height: 206px;
@@ -108,6 +131,10 @@ body * {
   line-height: 40px;
   margin-bottom: 50px;
 }
+.blog-section__link {
+  text-decoration: none;
+  color: #D76C69;
+}
 
 .presentation-section {
   display: flex;
@@ -119,7 +146,7 @@ body * {
   .presentation-section {
     flex-direction: row;
     justify-content: start;
-    margin-left: 180px;
+    margin-left: 60px;
   }
 }
 .presentation-section__img {
@@ -146,26 +173,26 @@ body * {
     flex-direction: row;
     justify-content: start;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 }
 .data-section__nickname {
   font-family: "Roboto", sans-serif;
-  color: #D76C69B2;
+  color: #d76c69b2;
   width: 164px;
 }
 .data-section__web {
   font-family: "Roboto", sans-serif;
-  color: #D76C69B2;
+  color: #d76c69b2;
 }
 .data-section__paragraph {
-  width: 617px;
+  width: 500px;
   height: 108px;
   margin-left: 20px;
   margin-top: 50px;
   color: #6C6E70;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .data-section__paragraph {
     display: none;
   }
