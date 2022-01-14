@@ -9,10 +9,18 @@ border-radius: 20px;
 -o-border-radius: 20px;
 font-size: $fz-small;
 margin-bottom: 70px;
-
+height: 46px;
+margin-left: 20px;
 }
 
 .section-button{
     display: flex;
     justify-content: space-evenly;
+    @media screen and (min-width: 992px){
+    justify-content: left; 
+    margin-left: 20px;
+    }
+
+   
+
 }

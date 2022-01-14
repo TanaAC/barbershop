@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-md navbar-dark nav-barbershop">
       <div class="container">
         <a class="navbar-brand" href="/assets/img/logo.png">
-          <img width="132" height="53" src="/assets/img/logo.png" alt="logo-barbershop"/></a>
+          <img class="navbar__logo" width="81" height="34" src="/assets/img/logo.png" alt="logo-barbershop"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
           aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -71,7 +71,10 @@
         tu corte de cabello
       </h1>
       <div class="hero-section__fas">
-        <i class="fas fa-chevron-down fa-2x"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
       </div>
     </section>
     <!--hero-section-->
@@ -109,18 +112,35 @@
   <a target="_blank" href="#">
     <img class="presentation-section__img" src="assets/img/naomi-thai.png" alt="naomi-thai">
   </a>
-
+  <div class="data-section">
+  <article class="data-section__name">Naomi thai</article>
+  <article class="data-section__nickname">@Naothai</article>
+  <article class="data-section__web">depelos.com</article>
+  </div>
+  <div>
+    <p class="data-section__paragraph">Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, quis convallis metus.</p>
+  </div>
 </section>
+<!--presentation-section--> 
 
-
-
-
-
+<!--pagination-->
+<section class="pagination-button">
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+  </ul>
+</nav>
+</section>
+<!--pagination-->
 
 
     <!--footer-->
     <footer class="blog-footer">
-    <img width="81" height="34" src="assets/img/logo.png" />
+    <img class="image-footer" width="81" height="34" src="assets/img/logo.png" />
     </footer>
     <!--footer-->
 

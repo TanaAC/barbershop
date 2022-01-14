@@ -1,0 +1,41 @@
+.data-section{
+    
+    text-align: start;
+&__name{
+    font-family:$ff-playf; 
+    font-size: $fz-x-larg;
+    font-weight: $fw-black;
+    width: 164px;
+}   
+
+@media screen and (min-width: 992px) {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 100px;
+  }
+
+  &__nickname{
+    font-family: $ff-roboto;
+    color: #D76C69B2;
+    width: 164px;
+} 
+
+  &__web{
+    font-family: $ff-roboto;
+    color: #D76C69B2;
+  }
+
+  &__paragraph{
+     width: 617px; 
+     height: 108px;
+     margin-left: 20px;
+     margin-top: 50px;
+     color:$color-nickel;
+     
+     @media screen and (min-width: 414px){
+     display: none;  
+     }
+  }
+
+
+}
