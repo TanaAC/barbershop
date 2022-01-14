@@ -1,8 +1,15 @@
-.pagination-button{
-   height: 156px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 50px;
-   background-color: $color-grey-light;
+.pagination-button {
+  height: 156px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: $color-grey-light;
+
+  .page-item {
+
+  }
+  .page-link {
+
+}
 }

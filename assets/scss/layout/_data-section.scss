@@ -1,6 +1,6 @@
 .data-section{
     
-    text-align: start;
+    text-align: center;
 &__name{
     font-family:$ff-playf; 
     font-size: $fz-x-larg;
@@ -11,6 +11,7 @@
 @media screen and (min-width: 992px) {
     flex-direction: row;
     justify-content: start;
+    text-align: left;
     margin-left: 100px;
   }
 
@@ -32,7 +33,7 @@
      margin-top: 50px;
      color:$color-nickel;
      
-     @media screen and (min-width: 414px){
+     @media screen and (max-width: 414px){
      display: none;  
      }
   }
