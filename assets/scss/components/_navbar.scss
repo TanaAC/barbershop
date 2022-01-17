@@ -1,6 +1,11 @@
 .nav-barbershop {
   background-color: black;
 
+  .navbar__logo{
+    width: 81px;
+    height: 34px;
+  }
+
   &__logo {
     @media screen and (min-width: 992px) {
       width: 78px;

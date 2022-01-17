@@ -1,4 +1,4 @@
-body * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,6 +32,10 @@ body * {
 
 .nav-barbershop {
   background-color: black;
+}
+.nav-barbershop .navbar__logo {
+  width: 81px;
+  height: 34px;
 }
 @media screen and (min-width: 992px) {
   .nav-barbershop__logo {
@@ -81,6 +85,10 @@ body * {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.blog-footer .image-footer {
+  width: 81px;
+  height: 34px;
 }
 @media screen and (min-width: 992px) {
   .blog-footer .image-footer {
